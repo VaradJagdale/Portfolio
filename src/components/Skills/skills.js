@@ -2,48 +2,49 @@ import React from 'react';
 import './skills.css';
 
 const Skills = () => {
-  return (
-    <section id='skills'>
-        <span className="skillTitle">My Skills</span>
-        <span className="skillDesc">"Proficient Full Stack Developer with hands-on experience in building dynamic and responsive web applications using PHP, Node.js, and the MERN stack (MongoDB, Express.js, React.js, Node.js). Skilled in both front-end and back-end development, leveraging frameworks like CodeIgniter and MySQL to create scalable, user-centric, and high-performance solutions. Adept at API integration, database optimization, and collaborating within agile teams to deliver impactful software."
-</span>
+    return (
+        <section id='skills'>
+            <span className="skillTitle">My Skills</span>
+            <span className="skillDesc">"Front-End Developer skilled in building responsive web applications using HTML, CSS, JavaScript, and React.js. Experienced in API integration, responsive design, and delivering user-centric solutions within agile teams."</span>
 
-       <div className="skillBars">
-            <div className="skillBar">
-                <img src="frontend.png" alt="versioncontrol" className="skillBarImg"/>
-                <div className="skillBarText">
-                    <h2>Frontend Development</h2>
-                    <p>"Proficient in HTML, CSS, and JavaScript, with experience building responsive and dynamic user interfaces using React.js. I utilize modern tools like Vite to enhance performance and deliver an exceptional user experience."</p>
+            <div className="skillBars">
+                <div className="skillBar">
+                    <img src="frontend.png" alt="versioncontrol" className="skillBarImg" />
+                    <div className="skillBarText">
+                        <h2>Responsive Web Design</h2>
+                        <p>Expertise in creating visually appealing, mobile-first designs with modern CSS techniques like Flexbox, Grid, and media queries.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="skillBar">
-                <img src="backend.png" alt="versioncontrol" className="skillBarImg"/>
-                <div className="skillBarText">
-                    <h2>Backend Development</h2>
-                    <p>"Experienced in developing scalable and efficient backend systems using Node.js and PHP, with expertise in frameworks like Express.js, CodeIgniter, and Laravel. I focus on building secure and robust APIs for seamless application functionality."</p>
+                <div className="skillBar">
+                    <img src="backend.png" alt="versioncontrol" className="skillBarImg" />
+                    <div className="skillBarText">
+                        <h2>JavaScript (ES6+) and Interactive UI Development</h2>
+                        <p>Proficient in writing clean and efficient JavaScript for dynamic and engaging interfaces.
+                            Experience with event handling, DOM manipulation, and building reusable components.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="skillBar">
-                <img src="apidevelopment.png" alt="apidevelopment" className="skillBarImg"/>
-                <div className="skillBarText">
-                    <h2>API Development</h2>
-                    <p>"Skilled in developing RESTful APIs using Node.js and Express.js, ensuring secure, efficient, and scalable communication between frontend and backend systems."</p>
+                <div className="skillBar">
+                    <img src="apidevelopment.png" alt="apidevelopment" className="skillBarImg" />
+                    <div className="skillBarText">
+                        <h2>HTML5 and Semantic Markup</h2>
+                        <p>Skilled in writing semantic HTML to ensure web accessibility and SEO best practices.
+                            Familiar with XHTML for legacy browser support.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="skillBar">
-                <img src="databasemanagement.png" alt="databasemanagement" className="skillBarImg"/>
-                <div className="skillBarText">
-                    <h2>Database Management</h2>
-                    <p>"Proficient in designing, implementing, and optimizing databases using MySQL and MongoDB. I ensure efficient data storage and retrieval, enabling high-performance web applications."</p>
+                <div className="skillBar">
+                    <img src="databasemanagement.png" alt="databasemanagement" className="skillBarImg" />
+                    <div className="skillBarText">
+                        <h2>Version Control with Git & GitHub</h2>
+                        <p>Experienced in managing code versions, collaborating in teams, and maintaining clean workflows using Git and GitHub.</p>
+                    </div>
                 </div>
-            </div>
 
-        </div>
-    </section>
-  )
+            </div>
+        </section>
+    )
 }
 
 export default Skills
