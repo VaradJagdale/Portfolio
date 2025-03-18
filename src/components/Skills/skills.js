@@ -5,32 +5,34 @@ const Skills = () => {
     return (
         <section id='skills'>
             <span className="skillTitle">My Skills</span>
-            <span className="skillDesc">"Front-End Developer skilled in building responsive web applications using HTML, CSS, JavaScript, and React.js. Experienced in API integration, responsive design, and delivering user-centric solutions within agile teams."</span>
+            <span className="skillDesc">MERN Full Stack Developer with experience in building responsive and scalable web applications using MongoDB, Express.js, React.js, Node.js. Proficient in front-end and back-end development, API integration, and database optimization, with a focus on delivering high-performance and user-friendly solutions.</span>
 
             <div className="skillBars">
                 <div className="skillBar">
                     <img src="frontend.png" alt="versioncontrol" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Responsive Web Design</h2>
-                        <p>Expertise in creating visually appealing, mobile-first designs with modern CSS techniques like Flexbox, Grid, and media queries.</p>
+                        <h2>Frontend Development</h2>
+                        <p>Proficient in HTML, CSS, and JavaScript, with hands-on experience in React.js.
+                            Experienced in building responsive, interactive UI using Tailwind CSS and modern frameworks.
+                            Utilized Vite for fast and optimized front-end development.</p>
                     </div>
                 </div>
 
                 <div className="skillBar">
                     <img src="backend.png" alt="versioncontrol" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>JavaScript (ES6+) and Interactive UI Development</h2>
-                        <p>Proficient in writing clean and efficient JavaScript for dynamic and engaging interfaces.
-                            Experience with event handling, DOM manipulation, and building reusable components.</p>
+                        <h2>Backend Development</h2>
+                        <p>Skilled in Node.js and Express.js, developing scalable and efficient server-side applications.
+                        Experience in building RESTful APIs for seamless communication between front-end and back-end.</p>
                     </div>
                 </div>
 
                 <div className="skillBar">
                     <img src="apidevelopment.png" alt="apidevelopment" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>HTML5 and Semantic Markup</h2>
-                        <p>Skilled in writing semantic HTML to ensure web accessibility and SEO best practices.
-                            Familiar with XHTML for legacy browser support.</p>
+                        <h2>Database Management</h2>
+                        <p>Proficient in MongoDB and MySQL, designing optimized database structures for high performance.
+                        Experience in managing data integrity and implementing efficient queries.</p>
                     </div>
                 </div>
 
